@@ -1,0 +1,18 @@
+{
+  "trabalhadores":[
+        {"id":1, "nome":"Léo Braida", "telefone":"32912312312", "email":"leo@email.exemplo","estado":"MG", "cidade":"Juiz de Fora", "cep":"36363-636",  "bairro":"bairro 1", "logradouro":"rua 1", "numeroMoradia":"10", "complemento":"", "genero": "masc", "senha":"senhaBacana", "dataNascimento":"07-07-2007", "cpf":"111111111-11", "cargo":"admin", "idHotel":""},
+        {"id":2, "nome":"Lorran Henrique", "telefone":"11932132132", "email":"lorran@gmail.com", "estado":"PA", "cidade":"Fora do Juiz", "cep":"12312-312", "bairro":"Dona Lurdes", "logradouro":"rua 2", "numeroMoradia":"20", "complemento":"B305", "genero": "masc", "senha": "senhaPaia", "dataNascimento":"01-01-2001", "cpf":"222222222-22", "cargo":"funcionario", "idHotel":1},
+        {"id":3, "nome":"Mateus Mauricio", "telefone":"02901230123", "email":"mateus@yahoo.com.br", "estado":"RJ", "cidade":"Cuiabá", "cep":"41023-987", "bairro":"Bairro 4", "logradouro":"rua 3", "numeroMoradia":"30", "complemento":"Z1987", "genero": "fem", "senha": "senhaMaisOuMenos", "dataNascimento":"09-09-2009", "cpf":"999999999-00", "cargo":"gerente", "idHotel":2}
+      ],
+      "hoteis":[
+        {"id":1, "nome":"HoteLeo", "estado":"MG", "cidade":"Juiz de Fora", "cep":"36363-636", "bairro":"Bairro do Léo", "logradouro":"Rua do Léo", "numero":"1", "telefone":"11999999999", "celular":"22988888888", "email":"hoteleo@hoteleo.com"},
+        {"id":2, "nome":"oTheo", "estado":"PA", "cidade":"Fora do Juiz", "cep":"12312-31", "bairro":"Bairro do Theo", "logradouro":"Rua do Theo", "numero":"2", "telefone":"98987654321", "celular":"", "email":"otheo@hoteleo.com"},
+        {"id":3, "nome":"Hotel Hotel", "estado":"RJ", "cidade":"Rio de Janeiro", "cep":"74747-474", "bairro":"Bairro do RJ", "logradouro":"Rua do RJ", "numero":"10", "telefone":"77978945612", "celular":"77945612378", "email":"errejota@hoteleo.com"}
+      ],
+      "hotelDoTrabalhador":[
+        {"id": 1, "idHotel": 1, "idTrabalhador": 1},
+        {"id": 2, "idHotel": 2, "idTrabalhador": 2},
+        {"id": 3, "idHotel": 3, "idTrabalhador": 3}
+      ]
+
+}
